@@ -1,0 +1,21 @@
+{
+  "name": "recaptcha",
+  "version": "1.0.0",
+  "description": "Implementation example of Google reCAPTCHA API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js"
+  },
+  "keywords": [
+    "recaptcha"
+  ],
+  "author": "Ron Rofe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1"
+  }
+}
